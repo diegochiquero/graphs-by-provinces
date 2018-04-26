@@ -1,0 +1,94 @@
+body{
+    background-color: #E0E0E0;
+    font-family: arial;
+}
+#container{
+    margin: 0px auto;
+    width:95%;
+    height: 550px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+#izquierdo{
+    float:left;
+    width:25%;
+    margin: 3% 0 0 3%;
+    padding: 3% 0 3% 3%;
+    background-color: white;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+#derecho{
+    float:right;
+    width:60%;
+    margin: 3% 0 3% 0;
+    padding: 3%;
+    background-color: white;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    display:none;
+}
+#izquierdoInf{
+    padding:10px 0;
+    display:none;
+}
+
+select{
+    border: 1px solid grey;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    height: 25px;
+    margin-top: 10px;
+    width: 75%;
+    display: inline;
+}
+#divProvincias{
+    padding-left: 25px;
+}
+#divChart{
+    width:100%;
+}
+button{
+    float:right;
+    margin-right:50%;
+}
+
+.divTable{
+    display:table;
+    width:100%;
+    margin:0 auto;
+    border: 1px solid #E3E0E0;
+}
+.divRow{
+    display: table-row;
+    padding: 2%;
+    color: #333333;
+}
+.divCell{
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid rgba(20, 17,17, 0.18);
+}
+.divHead {
+    display: table-row;
+    height: 25px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #4285F4;
+    color: white;
+}
+.divRow:nth-child(even){
+    background-color: #FAFAFA;
+}
+.divRow:nth-child(odd){
+    background-color: #F2F2F2;
+}
+.centrado{
+    text-align: center;
+}
+#divChart{
+   width: 755px;
+   height: 200px;
+}

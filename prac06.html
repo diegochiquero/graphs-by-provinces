@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+  <title>Graphs by provinces</title>
+  <meta charset="UTF-8">
+  <!--From HP Laptop-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+  <div id="container">
+
+    <div id="izquierdo">
+
+      <div id="izquierdoSup">
+        <label for="seleComunidad"><b>Comunidad Autómoma</b></label>
+        <select id="seleComunidad" name="seleComunidad"></select>
+      </div>
+
+      <div id="izquierdoInf">
+        <label for="divProvincias"><b>Provincias</b></label>
+        <div id="divProvincias"></div>
+      </div>
+    </div>
+
+    <div id="derecho">
+
+      <div id="derechoSup">
+        <div id="divDatos"></div>
+      </div><br/>
+
+      <div id="derechoInf">
+        <div id="divChart"></div>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+<script src="js/main.js" type="text/javascript"></script>
+
+</html>
